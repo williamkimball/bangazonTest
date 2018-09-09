@@ -200,5 +200,112 @@ null,
 1,
 2;
 
+INSERT INTO Computers
+SELECT 
+null,
+ '12/11/2018', 
+ null,
+3,
+'Pro',
+'Mac';
+
+INSERT INTO TrainingProgram
+SELECT 
+null,
+ 'Mastering SQL', 
+'07/12/2018', 
+'07/13/2018', 
+5;
+
+INSERT INTO Department
+SELECT 
+null,
+ 'Sales', 
+24000;
+
+INSERT INTO Employees
+SELECT 
+null,
+ 'Seth', 
+ 'Dana', 
+'sd@gmail.com',
+0,
+3;
+
+INSERT INTO EmployeeTraining
+SELECT 
+null,
+3,
+3;
+
+
+INSERT INTO EmployeeComputers
+SELECT 
+null,
+'02/14/2017', 
+'03/01/2018', 
+3,
+3;
+
+INSERT INTO Customer
+SELECT 
+null,
+ 'Walter', 
+ 'White', 
+'ww@gmail.com',
+'123 5th St.',
+'Nashville',
+'TN',
+'03/01/2016', 
+'03/01/2018';
+
+
+
+INSERT INTO ProductType
+SELECT
+null,
+'Poem';
+
+
+INSERT INTO PaymentType
+SELECT
+null,
+'Discover',
+6748402783,
+789,
+'12/21';
+
+
+INSERT INTO customerPayment
+SELECT
+null,
+3,
+3;
+
+INSERT INTO Orders
+SELECT
+null,
+3,
+3;
+
+
+
+INSERT INTO Product
+SELECT
+null,
+21,
+'Love Poem',
+'Heart achingly beautiful poem', 
+3,
+3,
+3;
+
+
+INSERT INTO ProductOrders
+SELECT
+null,
+3,
+3;
+
 
 
